@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _210081D_Wong_Yee_Jin
+build_property.RootNamespace = _210081D_Wong_Yee_Jin
+build_property.ProjectDir = D:\IT (Year 2)\IT2163 - AS\Week 15 Assignment\3\210081D_Wong Yee Jin\210081D_Wong Yee Jin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\IT (Year 2)\IT2163 - AS\Week 15 Assignment\3\210081D_Wong Yee Jin\210081D_Wong Yee Jin
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/EmailSentConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1haWxTZW50Q29uZmlybWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/errors/403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXJyb3JzXDQwMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/errors/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXJyb3JzXDQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJuYWxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT (Year 2)/IT2163 - AS/Week 15 Assignment/3/210081D_Wong Yee Jin/210081D_Wong Yee Jin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ah46dwzz25

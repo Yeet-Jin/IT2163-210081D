@@ -1,0 +1,128 @@
+﻿@page
+@model _210081D_Wong_Yee_Jin.Pages.RegisterModel
+@{
+}
+
+<div class="container mt-5">
+	<div class="row justify-content-center align-items-center">
+		<div class="col-sm-12 col-md-12 col-lg-4">
+			<h1 class="mb-3">Register </h1>
+			<form method="post" asp-antiforgery="true" enctype="multipart/form-data">
+				<div asp-validation-summary="All" class="text-danger"></div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.FirstName">First Name</label>
+					<input type="Text" asp-for="RMemberModel.FirstName" class="form-control" />
+					<span asp-validaton-for="RMemberModel.FirstName" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.LastName">Last Name</label>
+					<input type="Text" asp-for="RMemberModel.LastName" class="form-control" maxlength="9"/>
+					<span asp-validaton-for="RMemberModel.LastName" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.Gender">Gender</label>
+					<div class="col-sm-10 d-flex align-items-center">
+						<div class="form-check form-check-inline">
+							@Html.RadioButtonFor(m => m.RMemberModel.Gender, "M", new {@class = "form-check-input"})
+							<label class="form-check-label">Male</label>
+						</div>
+						<div class="form-check form-check-inline">
+							@Html.RadioButtonFor(m => m.RMemberModel.Gender, "F", new {@class = "form-check-input"})
+							<label class="form-check-label">Female</label>
+						</div>
+					</div>
+					<span asp-validaton-for="RMemberModel.Gender" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.NRIC">NRIC</label>
+					<input type="Text" asp-for="RMemberModel.NRIC" class="form-control" maxlength="9" oninput="this.value = this.value.toUpperCase()" />
+					<span asp-validaton-for="RMemberModel.NRIC" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.Email">Email Address</label>
+					<input type="email" asp-for="RMemberModel.Email" class="form-control" />
+					<span asp-validaton-for="RMemberModel.Email" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.Password">Password</label>
+					<ul>
+						<li>Minimum password length: 12</li>
+						<li>At least 1 uppercase letter, 1 lowercase letter, 1 digit, 1 special character</li>
+						<li>No spaces allowed</li>
+						<li>Allowed special characters: $!%*?&</li>
+					</ul>
+					<input type="password" asp-for="RMemberModel.Password" class="form-control" id="memberPwd"/>
+					<span asp-validaton-for="RMemberModel.Password" class="text-danger" id="memberPwd_checker"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.ConfirmPassword">Confirm Password</label>
+					<input type="password" asp-for="RMemberModel.ConfirmPassword" class="form-control" />
+					<span asp-validaton-for="RMemberModel.ConfirmPassword" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.DateOfBirth">Date of Birth</label>
+					<input type="date" max="2007-12-31" asp-for="RMemberModel.DateOfBirth" class="form-control" />
+					<span asp-validaton-for="RMemberModel.DateOfBirth" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.Resume">Resume</label>
+					<input type="file" accept=".docx, .pdf" asp-for="RMemberModel.Resume" class="form-control" />
+					<span asp-validaton-for="RMemberModel.Resume" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RMemberModel.WhoamI">Who am I?</label>
+					<p style="font-size: 0.875em;">Maximum number of characters: 100</p>
+					<input type="Text" asp-for="RMemberModel.WhoamI" class="form-control" maxlength="100"/>
+					<span asp-validaton-for="RMemberModel.WhoamI" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary">Register</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	document.getElementById("memberPwd").onkeyup = function() {
+		var str = document.getElementById('memberPwd').value;
+		if (str.length < 12) {
+			document.getElementById('memberPwd_checker').innerHTML = "Password must be at least 12 characters.";
+			document.getElementById('memberPwd_checker').style.color = "Red";
+			return ("too_short");
+		}
+		else if (str.search(/[0-9]/) == -1) {
+			document.getElementById("memberPwd_checker").innerHTML = "Password must contain at least 1 number.";
+			document.getElementById("memberPwd_checker").style.color = "Red";
+			return ("no_number");
+		}
+		else if (str.search(/[a-z]/) == -1) {
+			document.getElementById("memberPwd_checker").innerHTML = "Password must contain at least 1 lowercase letter.";
+			document.getElementById("memberPwd_checker").style.color = "Red";
+			return ("no_lowercase");
+		}
+		else if (str.search(/[A-Z]/) == -1) {
+			document.getElementById("memberPwd_checker").innerHTML = "Password must contain at least 1 uppercase letter.";
+			document.getElementById("memberPwd_checker").style.color = "Red";
+			return ("no_uppercase");
+		}
+		else if (str.search(/[^a-zA-Z0-9]/) == -1) {
+			document.getElementById("memberPwd_checker").innerHTML = "Password must contain at least 1 special character.";
+			document.getElementById("memberPwd_checker").style.color = "Red";
+			return ("no_special");
+		}
+		document.getElementById("memberPwd_checker").innerHTML = "Excellent!";
+		document.getElementById("memberPwd_checker").style.color = "Blue";
+	}
+</script>
